@@ -1,0 +1,68 @@
+body {
+    background-color: bisque;
+}
+
+h1 {
+    color:chocolate;
+}
+
+h1, h2, h3{
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+
+button{
+    border: none;
+    padding: 5px;
+    margin: 3px;
+    position: absolute;
+    left: 50%;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+/* Have tried to use CSS attribute selectors here */
+
+button[name="c1"], button[name="c2"], button[name="c3"], button[name="c4"]{
+
+    border: 1px solid;
+    padding: 5px;
+    margin: 3px;
+    position: relative;
+    left: 40%;
+    background-color: aliceblue;
+    cursor: pointer;
+    display: block;
+
+}
+
+a[name="main"] {
+    position: relative;
+    left: 45%;
+}
+
+
+
+img[name="quizimage"] {
+    border: 1px solid;
+    width:300px;
+    height:300px;
+    position: relative; /* I think the position is relative to the start button above it */
+    left: 40%; 
+    top: 50px;
+}
+
+img[name="greatjob"] {
+    border: 1px solid;
+    width:300px;
+    height:300px;
+    position: relative; /* I think the position is relative to the start button above it */
+    left: 40%; 
+    
+}
